@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <script src="java.js"> </script>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <title>Choices</title>
+      <center>
+         <div class="box2"> <h1>You didn't tried</h1> </div>
+      </center>
+      
+   </head>
+   <body>
+
+<head>
+    <title>Centered Alert Box</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #alert {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+        }
+
+        .heading {
+            color: green;
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="show-alert">Alert!</button>
+
+    <div id="alert">
+        <p>Why do you not want to play the game ?</p>
+        <p>:(</p>
+        <button onclick="document.getElementById('alert')
+                                   .style.display = 'none'">
+                      Close
+          </button>
+    </div>
+
+    <script>
+        
+          // Add an event listener to the "Show Alert" button
+        document.getElementById('show-alert')
+                  .addEventListener('click', function () {
+            document.getElementById('alert')
+                      .style.display = 'block';
+        });
+    </script>
+
+</body>
+
+</html>
+
+<center>
+
+   <div class="box"> <p>You scream of desperation, you can hear the zombies coming as fast as they can</p>
+
+      <h3></h3> </div>
+
+      <button class="button-28" role="button"; style="border-radius:25px; font-style:25px; background-color:floralwhite;width:300px ; ">  
+         The Future
+      </button>
+
+      <button class="button-28" role="button"; style="border-radius:25px; font-style:25px; background-color:floralwhite;width:300px ; ">  
+         To be a Failure
+      </button>
+
+</center>
+   </body>
+
+
+</html>
